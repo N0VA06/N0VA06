@@ -45,11 +45,6 @@ Novel hybrid positional embedding architecture combining sparse learnable embedd
 
 ## Research Projects
 
-### 🔬 HybridGATSAGE — Brain Tumor Segmentation on BraTS
-Graph-hybrid architecture combining Graph Attention Networks (GAT) and GraphSAGE for brain tumor segmentation from multi-modal MRI (T1, T1CE, T2, FLAIR). Full preprocessing pipeline: skull stripping → MNI normalization → spatial smoothing → NeuroComBat harmonization. Designed to handle HGG/LGG class imbalance and multi-site acquisition variance in the BraTS2020 dataset.
-
-> `BraTS · GNN · GAT · GraphSAGE · MRI Segmentation · nilearn · antspyx`
-
 ---
 
 ### 🧬 fMRI-Guided BCI Electrode Placement (PANDA Dataset)
@@ -108,6 +103,7 @@ Designed and deployed a GPU-accelerated retrieval-augmented generation system on
   <i>Open to research collaborations in neuroimaging ML, transformer architecture, and biomedical computer vision.</i><br>
   <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a>
 </p>
+
 
 
 
