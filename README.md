@@ -60,7 +60,7 @@ ML pipeline for predicting optimal cortical electrode placement for Brain-Comput
 ---
 
 ### 🔐 LLM Jailbreak Detection — Behavioral + Network Analysis
-AI safety research combining behavioral timing features (HarmBench prompt sequences) with network-level IP analysis for jailbreak detection. FastAPI server-client architecture for real-time behavioral data collection. Fused behavioral fingerprints with session-level features for anomaly detection. Explored publication at ACM CCS and CAMLIS 2026.
+AI safety research combining behavioral timing features (HarmBench prompt sequences) with network-level IP analysis for jailbreak detection. FastAPI server-client architecture for real-time behavioral data collection. Fused behavioral fingerprints with session-level features for anomaly detection. 
 
 > `LLM Security · AI Safety · HarmBench · Behavioral Analysis · FastAPI · Anomaly Detection`
 
@@ -108,5 +108,6 @@ Designed and deployed a GPU-accelerated retrieval-augmented generation system on
   <i>Open to research collaborations in neuroimaging ML, transformer architecture, and biomedical computer vision.</i><br>
   <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a>
 </p>
+
 
 
