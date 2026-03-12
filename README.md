@@ -46,7 +46,7 @@ ASD classification from resting-state fMRI (ABIDE dataset, 867 subjects, 17 acqu
 
 ### 📐 RotaryHybrid: Sparse-Dense Positional Embeddings for Transformers
 
-**ACL Student Research Forum 2025  ·  First Author  ·  Accepted**
+**ACL Student Research Forum 2025  ·  First Author  ·  Under Review**
 
 Hybrid positional embedding combining sparse learnable embeddings (with linear interpolation) and dense sinusoidal representations via a content-dependent importance gating mechanism. RotaryHybrid applies RoPE at both the embedding layer and attention layer for dual-level relative position encoding — achieving **70% parameter reduction** over full learned embeddings with improved downstream performance across text, image-caption, and QA benchmarks.
 
@@ -55,14 +55,6 @@ Hybrid positional embedding combining sparse learnable embeddings (with linear i
 -----
 
 ## 🔬 Research Projects
-
-### 🔬 HybridGATSAGE — Brain Tumor Segmentation on BraTS
-
-Graph-hybrid segmentation architecture combining GAT and GraphSAGE for multi-modal MRI (T1, T1CE, T2, FLAIR). Full preprocessing pipeline: skull stripping → MNI normalization → spatial smoothing → NeuroComBat harmonization. Handles HGG/LGG class imbalance and multi-site acquisition noise across the BraTS2020 dataset.
-
-`BraTS · GAT · GraphSAGE · nilearn · antspyx · NeuroComBat · MRI Segmentation`
-
------
 
 ### 🧬 fMRI-Guided BCI Electrode Placement (PANDA Dataset)
 
