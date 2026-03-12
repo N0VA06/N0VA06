@@ -93,9 +93,9 @@ Designed and deployed a GPU-accelerated retrieval-augmented generation system on
 ## Recognitions
 
 - 🥇 **Best Paper Nominee** — IEEE APSCON 2026
-- 🏆 **4th Place** — AWS Hackathon
-- 🥈 **Top 10** — Microsoft Hackathon  
-- 🌐 **Top 160** — Google Hackathon
+- 🏆 **4th Place** — AWS Blogathon 
+- 🥈 **Top 10** — Agentic Ethereun Microsoft Hackathon  
+- 🌐 **Top 160** — Google Cloud x MLB Hackathon
 
 ---
 
@@ -103,6 +103,7 @@ Designed and deployed a GPU-accelerated retrieval-augmented generation system on
   <i>Open to research collaborations in neuroimaging ML, transformer architecture, and biomedical computer vision.</i><br>
   <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a>
 </p>
+
 
 
 
