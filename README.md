@@ -19,8 +19,6 @@
 
 I'm a third-year Computer Science (AI) student and researcher at Amrita Vishwa Vidyapeetham, Coimbatore. My research sits at the intersection of **transformer architecture design**, **neuroimaging ML**, and **biomedical computer vision** — building methods that work under the constraints of real biomedical data: high dimensionality, multi-site acquisition noise, and severe label scarcity.
 
-I conduct research at the **Amrita Biomedical and Robotics Lab** and completed an industry R&D internship at **Schneider Electric**, where I deployed production-grade RAG systems on NVIDIA H100 infrastructure. I'm actively pursuing research internships and PhD opportunities at IITs, IISc, and international universities.
-
 ---
 
 ## Publications
@@ -103,6 +101,7 @@ Designed and deployed a GPU-accelerated retrieval-augmented generation system on
   <i>Open to research collaborations in neuroimaging ML, transformer architecture, and biomedical computer vision.</i><br>
   <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a>
 </p>
+
 
 
 
