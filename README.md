@@ -35,7 +35,7 @@ Classification of Autism Spectrum Disorder from resting-state fMRI using the ABI
 ---
 
 ### 📐 RotaryHybrid: Sparse-Dense Positional Embeddings for Transformers
-**ACL Student Research Forum 2025 · First Author · Accepted**
+**ACL Student Research Forum 2025 · First Author · Under Review**
 
 Novel hybrid positional embedding architecture combining sparse learnable embeddings (with linear interpolation) and dense sinusoidal representations via a content-dependent importance gating mechanism. The RotaryHybrid variant applies RoPE in both the embedding space and attention layers for dual-level relative position encoding — achieving 70% parameter reduction over full learned embeddings while improving downstream task performance. Evaluated on IMDB, Yelp, Flickr8k, Yahoo Answers, and SQuAD.
 
@@ -108,3 +108,4 @@ Designed and deployed a GPU-accelerated retrieval-augmented generation system on
   <i>Open to research collaborations in neuroimaging ML, transformer architecture, and biomedical computer vision.</i><br>
   <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a>
 </p>
+
