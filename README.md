@@ -112,16 +112,6 @@ Slack/Zoho Cliq–integrated JIRA bot with dual LLM backend (AWS Bedrock + Gemin
 |**Languages**         |Python · C++ · SQL · Bash · LaTeX                                            |
 
 -----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=N0VA06&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=N0VA06&layout=compact&theme=default&hide_border=true" height="150"/>
-</p>
-
------
-
 ## 🏆 Recognitions
 
 |                        |                                      |
