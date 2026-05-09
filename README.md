@@ -79,24 +79,28 @@ I build at the boundary between **research** and **production** — designing tr
 ---
 ## 📊 GitHub
 
-<p align="center">
+<table align="center">
+<tr>
+<td align="center">
+  
   <img
     height="170"
     src="https://github-readme-stats-sigma-five.vercel.app/api?username=N0VA06&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight"
   />
-  </p>
+</td>
 
-<p align="center">
-
+<td align="center">
   <img
     height="170"
     src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=N0VA06&layout=compact&hide_border=true&langs_count=8&theme=tokyonight"
   />
-</p>
+</td>
+</tr>
+</table>
 
 <p align="center">
   <img
-    src="https://github-profile-trophy.vercel.app/?username=N0VA06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6"
+    src="https://github-profile-trophy.vercel.app/?username=N0VA06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=6"
   />
 </p>
 
