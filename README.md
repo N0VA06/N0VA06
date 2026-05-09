@@ -1,9 +1,9 @@
 <h1 align="center">Vijay Srinivas P</h1>
 
 <p align="center">
-  <b>AI Researcher &nbsp;·&nbsp; Research Engineer &nbsp;·&nbsp; GenAI Builder</b><br><br>
-  B.Tech CSE (AI) · Amrita Vishwa Vidyapeetham, Coimbatore<br>
-  R&amp;D GenAI Intern @ Schneider Electric &nbsp;·&nbsp; Undergrad Researcher
+  <b>AI Researcher · Research Engineer · GenAI Builder</b><br>
+  B.Tech CSE (AI), Amrita Vishwa Vidyapeetham<br>
+  AI Research Intern @ CMU SCS · Ex-R&amp;D GenAI @ Schneider Electric
 </p>
 
 <p align="center">
@@ -13,155 +13,88 @@
 </p>
 
 <p align="center">
-  <a href="mailto:vijay.srinvas06@gmail.com">
-    <img src="https://img.shields.io/badge/Email-vijay.srinvas06@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vijay-srinivas-9571942ab">
-    <img src="https://img.shields.io/badge/LinkedIn-Vijay%20Srinivas-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/N0VA06">
-    <img src="https://img.shields.io/badge/GitHub-N0VA06-181717?style=flat-square&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://medium.com/@vijay.srinvas06">
-    <img src="https://img.shields.io/badge/Medium-@vijay.srinvas06-12100E?style=flat-square&logo=medium&logoColor=white"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=N0VA06&style=flat-square&color=blue" alt="Profile Views"/>
+  <a href="mailto:vijay.srinvas06@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/vijay-srinivas-9571942ab"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://medium.com/@vijay.srinvas06"><img src="https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white"/></a>
+  <a href="https://huggingface.co/spaces/IINOVAII/mimic-discharge-env-v2"><img src="https://img.shields.io/badge/🤗_HuggingFace-FF9D00?style=flat-square&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=N0VA06&style=flat-square&color=00d9ff&label=Profile+views"/>
 </p>
 
 ---
 
-## 🌐 Currently building → [**novaihq.tech**](https://novaihq.tech)
+I build at the boundary between **research** and **production** — designing transformer architectures and neuroimaging ML, then shipping them as deployed systems with real traffic.
 
-> *novaihq is an applied AI research lab — the Operational Intelligence Engine: a reasoning layer for grids, data centers, and industrial infrastructure, grounded in published research and deployed systems.*
-
-The site itself is a [full-stack React + Express project](https://github.com/N0VA06/websiteforstartup) — admin dashboard, self-hosted analytics, JWT auth, real-time visitor metrics. End-to-end shipped from research to production.
-
----
-
-## About
-
-I build at the boundary between **research and production** — designing novel architectures for neuroimaging and NLP problems, then shipping them as real deployed systems.
-
-On the research side, my work spans **transformer architecture design** (positional embeddings, hybrid sparse-dense representations), **neuroimaging ML** (fMRI, BraTS, multi-site harmonization), and **biomedical computer vision**. On the engineering side, I architect and ship **production RAG systems**, **multi-agent LLM workflows**, and **MCP server integrations** — GenAI infrastructure built to handle real traffic.
+🌐 **Currently building** → [**novaihq.tech**](https://novaihq.tech) · the Operational Intelligence Engine — a reasoning layer for grids, data centers, and industrial infrastructure.
 
 ---
 
 ## 📄 Publications
 
-### 🧠 ASD Classification from rs-fMRI via Riemannian Functional Connectivity
+- **[IEEE APSCON 2026 · Best Paper Nominee · First Author]** *ASD Classification from rs-fMRI via Riemannian Functional Connectivity* — Tangent Space Embedding on ABIDE (867 subjects, 17 sites). **69.6 % acc / 76.2 % AUC**, plus a methodological finding showing data leakage inflates accuracy by 22 pp.
+- **[CVPR MMFM-BIOMED 2026 · In Progress · First Author]** *Probing Downstream Performance to Diagnose Representation Failure in fMRI Foundation Models* — CKA ≥ 0.993 across **12 frozen architectures**, exposing representational collapse in biomedical foundation models.
+- **[ACL SRF 2026 · Under Review · First Author]** *RotaryHybrid: Sparse-Dense Positional Embeddings for Transformers* — content-gated hybrid with dual-level RoPE. **70 % parameter reduction** with **31.6 % improvement** (p < 0.001, Cohen's d = 8.43).
 
-**IEEE APSCON 2026 · First Author · Best Paper Nominee**
+## 🔬 Research
 
-ASD classification from resting-state fMRI (ABIDE dataset, 867 subjects, 17 acquisition sites). Mapped Pearson functional connectivity matrices onto a Riemannian manifold via Tangent Space Embedding to produce site-robust representations — achieving **69.60% accuracy / 76.20% AUC-ROC**. Quantified the impact of data leakage, showing improper validation inflates accuracy by **22 percentage points** (91.6% vs 69.7%) — a methodological finding applicable across multi-site biomedical imaging.
+- **AI Research Intern · CMU School of Computer Science** *(Mar 2026 – present)* — designing deep active learning algorithms for medical image segmentation targeting **30–40 % annotation-cost reduction**. Benchmarking 5+ vision architectures with custom evaluation tooling.
+- **fMRI-Guided BCI Electrode Placement** — predicts optimal cortical vertex per subject from 7T fMRI + FreeSurfer morphometry. OpenNeuro ds005366, 155 subjects.
+- **LLM Jailbreak Detection** — behavioral timing + IP-network signal fusion on HarmBench. FastAPI server-client; targeting ACM CCS / CAMLIS 2026.
 
-`fMRI · Riemannian Geometry · Multi-site Harmonization · Graph Connectivity · ABIDE · ASD`
+## ⚙️ Engineering
 
----
+- **[novaihq.tech](https://novaihq.tech)** — full-stack research-lab site. React + Vite frontend on GH Pages, Express + JWT backend on Render, self-hosted privacy-first analytics with Excel export, mobile-responsive admin, audit log.
+- **R&D GenAI Intern @ Schneider Electric** *(Apr–Jun 2025)* — GPU-accelerated RAG on NVIDIA H100 handling **1 k+ daily queries at 95 % accuracy** with **90 % latency reduction**. Qdrant + Azure + MongoDB; 100+ concurrent users.
+- **[MIMIC Discharge RL Environment](https://huggingface.co/spaces/IINOVAII/mimic-discharge-env-v2)** — live RL environment on Hugging Face for clinical-discharge decision-making. Built on massively parallel on-GPU vectorised gyms.
+- **AI-Powered JIRA + MCP Server** — Slack/Cliq-integrated bot, dual-LLM backend (AWS Bedrock + Gemini), MCP layer for agentic JIRA reads/writes. FastAPI + React on Railway.
+- **Multi-Agent LLM Workflows** — hierarchical LangGraph agents with structured handoffs. Round-1 MVP at OpenAI Buildathon.
+- **Sub-3B Reasoning Models** — dense foundational models with reasoning-weighted pretraining + iterated DPO, optimised for capability-per-watt.
+- **Autonomous Rover** — WebSocket telemetry, multi-model YOLO, sensor fusion, laser targeting. Embedded firmware → cloud dashboard. ([demo](https://youtu.be/do77U-R3pFQ))
 
-### 📐 RotaryHybrid: Sparse-Dense Positional Embeddings for Transformers
+## 🛠️ Skills
 
-**ACL Student Research Forum 2025 · First Author · Under Review**
-
-Hybrid positional embedding combining sparse learnable embeddings (with linear interpolation) and dense sinusoidal representations via a content-dependent importance gating mechanism. RotaryHybrid applies RoPE at both the embedding layer and attention layer for dual-level relative position encoding — achieving **70% parameter reduction** over full learned embeddings with improved downstream performance across text, image-caption, and QA benchmarks.
-
-`Transformers · RoPE · Positional Encoding · Hybrid Architectures · NLP · Parameter Efficiency`
-
----
-
-## 🔬 Research Projects
-
-### 🧬 fMRI-Guided BCI Electrode Placement (PANDA Dataset)
-
-ML pipeline for predicting optimal cortical electrode placement for Brain-Computer Interfaces using OpenNeuro ds005366 (155 subjects, 7T fMRI, Motor2Class task). Extracts structural features (FreeSurfer: cortical thickness, curvature, surface area) and task-based functional activation from fMRIPrep outputs. Whole-brain group-level nilearn analysis to identify the optimal cortical vertex per subject given age, sex, and morphometric profile.
-
-`fMRI · BCI · fMRIPrep · FreeSurfer · nilearn · Motor Cortex · Feature Engineering`
-
----
-
-### 🔐 LLM Jailbreak Detection — Behavioral + Network Analysis
-
-AI safety system combining behavioral timing features from HarmBench prompt sequences with network-level IP signals. FastAPI server-client architecture for real-time behavioral data collection. Fused session fingerprints with network features for jailbreak anomaly detection. Explored for publication at ACM CCS and CAMLIS 2026.
-
-`LLM Security · AI Safety · HarmBench · Behavioral Analysis · FastAPI · Anomaly Detection`
-
----
-
-## ⚙️ Engineering Projects
-
-### 🏭 R&D GenAI Intern — Schneider Electric
-
-Designed and deployed a GPU-accelerated RAG system on NVIDIA H100 infrastructure handling **1,000+ daily queries at 95% accuracy**. Multi-stage retrieval with Qdrant + Azure + MongoDB. Achieved **90% latency reduction** through GPU-optimized inference, agentic reasoning chains, and CI/CD deployment on Azure.
-
-`RAG · Qdrant · FAISS · Milvus · Azure · MongoDB · FastAPI · Docker · NVIDIA H100`
-
----
-
-### 🤖 Multi-Agent LLM Workflows with LangGraph
-
-Hierarchical multi-agent systems using LangGraph — coordinating specialized sub-agents for research, analysis, and execution with structured state handoffs and tool calls. Built as Round 1 MVP at the OpenAI Buildathon.
-
-`LangGraph · Multi-Agent · LLM Orchestration · Tool Use · OpenAI · Agentic AI`
-
----
-
-### 🔧 AI-Powered JIRA Manager + MCP Server Integration
-
-Slack/Zoho Cliq–integrated JIRA bot with dual LLM backend (AWS Bedrock + Gemini). Natural language → structured JIRA issue creation with AI-extracted fields (type, priority, assignee, labels). MCP server layer enabling tool-calling AI agents to read and write project tasks programmatically. Deployed on Railway with FastAPI backend and React frontend.
-
-`MCP · JIRA · FastAPI · React · AWS Bedrock · Gemini · Zoho Cliq · Railway`
-
----
-
-### 🌐 [novaihq.tech](https://novaihq.tech) — Full-Stack Research-Lab Site
-
-Personal research-lab website + admin platform. React 18 + Vite frontend, Express + JWT backend, self-hosted privacy-first analytics (event tracking, geo via geoip-lite, session fingerprinting, engagement metrics, Excel export). Deployed via GitHub Actions to GitHub Pages with custom domain; backend on Render. Mobile-responsive admin with real-time stats, milestone/achievement CRUD, and audit logging.
-
-`React · TypeScript · Vite · Express · JWT · bcrypt · TailwindCSS · Framer Motion · Recharts`
-
----
-
-## 🛠️ Technical Skills
-
-| Domain | Stack |
+| | |
 |---|---|
-| **Neuroimaging** | fMRIPrep · FreeSurfer · nilearn · nibabel · antspyx · NeuroComBat · SPM · MNI |
-| **Biomedical CV** | BraTS · cryo-ET/EM · GAT · GraphSAGE · SimpleITK · 3D Segmentation |
-| **NLP / Transformers** | BERT · RoPE · HuggingFace · SQuAD QA · Hybrid Embeddings · Fine-tuning |
-| **GenAI / Agents** | LangChain · LangGraph · MCP Servers · RAG · Agentic Workflows · Tool Use |
-| **Vector DBs** | Qdrant · Milvus · FAISS · Pinecone |
-| **ML / DL** | PyTorch · scikit-learn · XGBoost · AdamW · Knowledge Distillation |
-| **MLOps / Infra** | FastAPI · Docker · Azure · AWS · CI/CD · Railway · MongoDB |
+| **Neuroimaging** | fMRIPrep · FreeSurfer · nilearn · NeuroComBat · ABIDE · BraTS |
+| **NLP / Transformers** | RoPE · BERT · HuggingFace · Hybrid embeddings · Fine-tuning · DPO |
+| **GenAI / Agents** | LangChain · LangGraph · MCP · RAG · Agentic workflows · Tool use |
+| **Vector DBs / ML** | Qdrant · Milvus · FAISS · Pinecone · PyTorch · scikit-learn · XGBoost |
+| **Infra** | FastAPI · Express · Docker · Azure · AWS · Render · Railway · CI/CD |
 | **Languages** | Python · C++ · TypeScript · SQL · Bash · LaTeX |
-
----
 
 ## 🏆 Recognitions
 
 | | |
 |---|---|
 | 🥇 **Best Paper Nominee** | IEEE APSCON 2026 |
+| 🎓 **Selected** | YC Startup School · VibeContest · ContextCon |
+| 💯 **Top 100 / 31,000 teams** | Meta PyTorch OpenEnv Hackathon |
 | 🏗️ **Round 1 MVP** | OpenAI Buildathon |
-| 🎯 **4th Place** | AWS Blogathon |
+| 🥈 **Runner-Up** | Infineon · Agentic Bug Hunter Track |
+| 🥈 **Runner-Up** | Amrita Value Health Hackathon |
 | 🚀 **Top 10** | Agentic Ethereum · Microsoft Hackathon |
+| 🎯 **Top 5 / 400+** | AWS Blogathon |
 | 🌐 **Top 160** | Google Cloud × MLB Hackathon |
+| 📜 **Fellow** | McKinsey Forward Program |
 
 ---
 
 ## 📊 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=N0VA06&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=N0VA06&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="170"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=N0VA06&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=0a0a0a&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff&cache_seconds=14400"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=N0VA06&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&bg_color=0a0a0a&title_color=00d9ff&text_color=ffffff&cache_seconds=14400"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=N0VA06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6"/>
 </p>
 
 ---
 
 <p align="center">
-  <i>Open to research collaborations and engineering roles in neuroimaging ML, GenAI systems, and transformer research.</i>
-</p>
-
-<p align="center">
-  <a href="https://novaihq.tech">novaihq.tech</a> &nbsp;·&nbsp;
-  <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/vijay-srinivas-9571942ab">LinkedIn</a>
+  <i>Open to research collaborations and engineering roles in neuroimaging ML, GenAI systems, and transformer research.</i><br><br>
+  <a href="https://novaihq.tech">novaihq.tech</a> ·
+  <a href="mailto:vijay.srinvas06@gmail.com">vijay.srinvas06@gmail.com</a> ·
+  <a href="https://www.linkedin.com/in/vijay-srinivas-9571942ab">LinkedIn</a> ·
+  <a href="https://github.com/N0VA06">GitHub</a>
 </p>
