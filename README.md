@@ -84,6 +84,9 @@ I build at the boundary between **research** and **production** — designing tr
     height="170"
     src="https://github-readme-stats-sigma-five.vercel.app/api?username=N0VA06&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight"
   />
+  </p>
+
+<p align="center">
 
   <img
     height="170"
